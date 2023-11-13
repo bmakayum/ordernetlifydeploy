@@ -1,0 +1,73 @@
+#header{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    border-radius: 10px;
+    width: calc(100% - 330px);
+    background-color: #fff;
+    padding-left: 15px;
+    padding-right: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+    transition: all .4s linear;
+}
+
+#header.collapsed {
+    width: calc(100% - 50px);
+}
+
+.header-top {
+    height: 65px;
+}
+
+.profile{
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    border-radius: 100px;
+    border: 2px solid var(--main-color);
+}
+
+.rightBox input,
+.rightBox button{
+    height: 40px;
+}
+
+
+
+
+
+
+.productBtns a{
+    text-decoration: none;
+    color: var(--main-dark);
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    /* box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px; */
+}
+
+
+/* .bg_1{
+    background-color: #1bf5f7;
+}
+.bg_2{
+    background-color: #ffc215;
+}
+.bg_3{
+    background-color: #00adee;
+}
+.bg_4{
+    background-color: #fb0300;
+}
+.bg_5{
+    background-color: #01ff04;
+}
+.bg_6{
+    background-color: #00949e;
+} */
+
+

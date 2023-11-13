@@ -1,0 +1,8 @@
+#addProduct{
+    max-width: 60%;
+}
+
+.form-control {
+    padding: 12px 20px;
+    border: 1px solid #ddd;
+}

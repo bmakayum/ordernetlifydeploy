@@ -1,0 +1,442 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+:root {
+    /* --r: 2;
+    --g: 84;
+    --b: 130;
+    --a: 1;
+    --main-color: rgba(var(--r), var(--g), var(--b), var(--a)); */
+    --main-color: #4318ff;
+    --main-text-color: #333333;
+    --main-dark: #212121;
+    --main-highlight: #dd0213;
+    --color-blue: #2caef7;
+    --color-purple: #b93afb;
+    --body-color: #f4f7fe;
+    /* --main-hover-color: #1fbc2c; */
+}
+
+/* background-color: rgba(var(--r), var(--g), var(--b), 0.3); */
+/* Base color code: #025482 */
+
+.bg_0{
+    border: 1px solid #333;
+    color: #333 !important;
+}
+.bg_1{
+    background-color: #6F61C0 !important;
+}
+.bg_2{
+    background-color: #4682A9 !important;
+}
+.bg_3{
+    background-color: #7C9D96 !important;
+}
+.bg_4{
+    background-color: #ff6e2b !important;
+}
+.bg_5{
+    background-color: #00b200 !important;
+}
+
+
+.bg-base {
+    background-color: var(--main-color) !important;
+}
+.text-base {
+    color: var(--main-color) !important;
+}
+
+body {
+    font-size: 16px !important;
+    font-family: "sans-serif";
+    font-weight: 300;
+    /* background-color: var(--body-color) !important; */
+    color: var(--main-dark) !important;
+    position: relative;
+    font-family: "Roboto", sans-serif !important;
+}
+
+.main {
+    padding-top: 120px;
+    padding-left: 300px;
+    padding-right: 40px;
+    /* background-color: var(--body-color); */
+    background-image: linear-gradient( to left bottom, #f7ecf0, #f2e6ed, #ebe0ec, #e2dbea, #d8d6e9, #d6d7ea, #d3d9eb, #d1daec, #d9e1f0, #e1e8f3, #eaeff7, #f3f6fa );
+    height: 100vh;
+    transition: all 0.4s linear;
+}
+
+.main.collapsed {
+    padding-left: 20px;
+}
+
+.orderSheetBtn {
+    margin-right: 10px;
+    color: #fff;
+    background-color: #5C5470;
+    border: 1px solid var(--main-dark);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+.orderSheetBtn:hover {
+    color: #fff;
+}
+
+.active{
+    box-shadow: 0 0 0 0.25rem rgba(13,110,253,.25);
+}
+
+/* for Select options  */
+.selectOrder input{
+    padding: 5px !important;
+}
+/* for Select options  */
+
+
+
+
+
+
+
+
+/* Data Table CSS Start Here */
+.rdt_TableCell:nth-child(2){
+    min-width: 45px !important;
+    max-width: 45px !important;
+}
+.rdt_TableCol:nth-child(2){
+    min-width: 45px !important;
+    max-width: 45px !important;
+}
+.rdt_TableCell:nth-child(3){
+    min-width: 90px !important;
+    max-width: 90px !important;
+}
+.rdt_TableCol:nth-child(3){
+    min-width: 90px !important;
+    max-width: 90px !important;
+}
+.rdt_TableCell:nth-child(4){
+    min-width: 60px !important;
+    max-width: 60px !important;
+}
+.rdt_TableCol:nth-child(4){
+    min-width: 60px !important;
+    max-width: 60px !important;
+}
+.rdt_TableCell:nth-child(5){
+    min-width: 90px !important;
+    max-width: 90px !important;
+}
+.rdt_TableCol:nth-child(5){
+    min-width: 90px !important;
+    max-width: 90px !important;
+}
+.rdt_TableCell:nth-child(6){
+    min-width: 120px !important;
+    max-width: 120px !important;
+}
+.rdt_TableCol:nth-child(6){
+    min-width: 120px !important;
+    max-width: 120px !important;
+}
+
+
+
+
+.rdt_TableCell:nth-child(7) div{
+    white-space: normal !important;
+}
+.rdt_TableCell div{
+    white-space: normal !important;
+}
+
+
+
+.rdt_TableCell:nth-child(8){
+    min-width: 200px !important;
+    max-width: 200px !important;
+}
+.rdt_TableCol:nth-child(8){
+    min-width: 200px !important;
+    max-width: 200px !important;
+}
+
+.rdt_TableCell:nth-child(9){
+    min-width: 80px !important;
+    max-width: 80px !important;
+}
+.rdt_TableCol:nth-child(9){
+    min-width: 80px !important;
+    max-width: 80px !important;
+}
+.rdt_TableCell:nth-child(10){
+    min-width: 90px !important;
+    max-width: 90px !important;
+}
+.rdt_TableCol:nth-child(10){
+    min-width: 90px !important;
+    max-width: 90px !important;
+}
+.rdt_TableCell:nth-child(11){
+    min-width: 75px !important;
+    max-width: 75px !important;
+}
+.rdt_TableCol:nth-child(11){
+    min-width: 75px !important;
+    max-width: 75px !important;
+}
+.rdt_TableCell:nth-child(12){
+    min-width: 130px !important;
+    max-width: 130px !important;
+}
+.rdt_TableCol:nth-child(12){
+    min-width: 130px !important;
+    max-width: 130px !important;
+}
+.rdt_TableCell:nth-child(13){
+    min-width: 100px !important;
+    max-width: 250px !important;
+}
+.rdt_TableCol:nth-child(13){
+    min-width: 100px !important;
+    max-width: 250px !important;
+}
+
+/* Data Table CSS End Here */
+
+
+
+
+
+
+
+
+/* Modal CSS Start Here */
+.modal{
+    --bs-modal-width: 800px !important;
+}
+/* Modal CSS End Here */
+
+
+
+
+
+
+
+
+/* Login CSS  */
+.main.login_box {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: var(--body-color);
+    height: 100vh;
+    transition: all 0.4s linear;
+}
+
+#login{
+    max-width: 450px;
+    width: 100%;
+    border-radius: 15px;
+    padding: 40px 60px;
+    background-color: white;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+#login .form-control{
+    border-radius: 100px;
+    padding: 12px 25px;
+}
+
+#login .form-control:focus {
+    box-shadow: none;
+    border-color: var(--main-color);
+}
+.loginicon{
+    font-size: 33px;
+    width: 80px;
+    height: 80px;
+    background-color: #F1EFEF;
+    color: #12486B;
+    line-height: 70px;
+    margin: auto;
+    border-radius: 100%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+.loginBtn{
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    background-color: #12486B;
+    border: 0;
+    padding: 12px 30px;
+    width: 200px;
+    border-radius: 100px;
+    color: #fff;
+    transition: all 0.4s ease;
+}
+.loginBtn:hover{
+    background-color: var(--main-color);
+    color: #fff;
+}
+/* Login CSS  */
+
+
+
+
+/* profile CSS Here */
+#profile{
+    position: relative;
+}
+#profile::after{
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    border: 1px solid #fff;
+    background-color: green;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+#profile img{
+    width: 40px;
+    height: 40px;
+}
+
+#profile .btn-primary{
+    padding: 0;
+    background-color: transparent;
+    border: none;
+}
+#profile .dropdown-toggle::after{
+    display: none;
+}
+
+
+#profile .dropdown-menu {
+    padding: 20px 30px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    border: 0;
+    min-width: 200px;
+}
+#profile .dropdown-menu a{
+    text-decoration: none;
+    color: var(--main-dark);
+    font-size: 15px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+#profile .dropdown-menu a:hover{
+    color: var(--main-color);
+}
+/* profile CSS Here */
+
+
+
+
+
+
+/* Creat Order Sheets CSS  */
+.inputOrderSheet{
+    max-width: 300px;
+}
+
+.orderSheetList{
+    padding: 15px;
+    padding-right: 100px !important;
+    border: 1px solid #eee;
+}
+.actionBtns{
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+}
+/* Creat Order Sheets CSS  */
+
+
+
+
+
+
+/* profileView CSS Here  */
+#profileView{
+    max-width: 600px;
+    width: 100%;
+    border-radius: 10px;
+    margin: auto;
+    padding: 30px;
+    background-color: #eee;
+}
+.profileViewBox img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+
+.inputProfile_img,
+.profileText{
+    max-width: 400px;
+    margin: auto;
+}
+
+
+
+/* profileView CSS Here  */
+
+
+/* Circle loader */
+.circle-loader {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  .circle-loader:before, .circle-loader:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    border: 10px solid transparent;
+    border-top-color: blueviolet;
+  }
+  
+  .circle-loader:before {
+    z-index: 100;
+    animation: spin 1s infinite;
+  }
+  
+  .circle-loader:after {
+    border: 10px solid #dfe3e9;
+  }
+
+  @keyframes spin {
+    0% {
+      -webkit-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  /* Circle loader end */
+
+
+
+
+
